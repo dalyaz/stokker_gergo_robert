@@ -1,0 +1,44 @@
+body{
+	background-color: rgb(226, 222, 222);
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+}
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+img{
+	max-width: 100%;
+}
+body{
+	display: grid;
+	grid-template-areas: 
+	"fejlec"
+	"kontent"
+	"lablec";
+	grid-template-rows: max-content 1fr max-content;
+	min-height:100vh ;
+}
+header{
+	text-align: center;
+	font-size: 2rem;
+}
+main{
+	line-height: 2rem;
+	font-size: 1.25rem;
+	padding: .8rem 1rem;
+}
+.sugo{
+	height:20rem;
+	margin-left: 15rem;
+	margin-right: 8rem;
+	margin-top: 1rem;
+}
+.bela{
+	height: 20rem;
+	margin-left: 15rem;	
+	margin-right: 10rem;
+	margin-top: 1rem;
+}
